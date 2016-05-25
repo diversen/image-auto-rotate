@@ -19,7 +19,7 @@ Only one method:
 
 use diversen\imageRotate;
 
-// Works on directly on image
+// Works directly on image
 $rotate = new imageRotate();
 $rotate->fixOrientation($file['tmp_name']);
 ~~~
