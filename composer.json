@@ -1,5 +1,5 @@
 {
-    "name": "image-auto-rotate",
+    "name": "diversen/image-auto-rotate",
     "description": "Auto rotate image to correct position from exif",
     "homepage": "https://github.com/diversen/image-auto-rotate",
     "keywords": ["image", "GD", "rotate"],
