@@ -4,7 +4,7 @@ Auto rotate images to correct orientation
 
 See answers on: 
 
-http://stackoverflow.com/questions/10034255/how-to-read-an-image-with-php
+http://stackoverflow.com/questions/7489742/php-read-exif-data-and-adjust-orientation
 
 # Install
 
@@ -19,7 +19,7 @@ Only one method:
 
 use diversen\imageRotate;
 
-// Works directly on image
+// The class works directly on an image
 $rotate = new imageRotate();
 $rotate->fixOrientation($file['tmp_name']);
 ~~~
